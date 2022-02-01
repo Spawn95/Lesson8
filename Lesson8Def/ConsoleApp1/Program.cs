@@ -16,7 +16,7 @@ namespace ConsoleApp1
                 string name = Properties.Settings.Default.userName;
                 int age = Properties.Settings.Default.userAge;
                 string profession = Properties.Settings.Default.userProfession;
-                Console.Write($"Hello ! {name} {age} {profession}");
+                Console.Write($"Hello user! {name} {age} {profession}");
             }
             else
             {
